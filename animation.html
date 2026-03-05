@@ -2,38 +2,40 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animationer</title>
   <script type="module" src="/src/js/main.js"></script>
 </head>
-
 <body>
 
 <header>
-  <nav>
-    <a href="index.html">Start</a>
-    <a href="sass.html">Sass</a>
-    <a href="animation.html">Animation</a>
-  </nav>
+  <ul class="menu">
+    <li><a href="index.html">Start</a></li>
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="animation.html">Animation</a></li>
+    <li><a href="#">Om oss</a></li>
+    <li><a href="#">Kontakt</a></li>
+  </ul>
 </header>
 
 <main>
 
-<h1>Animationer</h1>
+  <h1>Animationer</h1>
 
-<section>
-<h2>Textanimation</h2>
-<p class="glow-text">Detta är en animerad text</p>
-</section>
+  <section>
+    <h2>Textanimation</h2>
+    <p class="glow-text">Detta är en animerad text</p>
+  </section>
 
-<section>
-<h2>Rörligt objekt</h2>
-<div class="moving-circle"></div>
-</section>
+  <section>
+    <h2>Rörligt objekt</h2>
+    <div class="floating-ball"></div>
+  </section>
 
-<section>
-<h2>Interaktiv knapp</h2>
-<button class="fun-button">Hovera mig</button>
-</section>
+  <section>
+    <h2>Interaktiv knapp</h2>
+    <button class="fun-btn" onclick="window.location.href='index.html'">Hovera mig</button>
+  </section>
 
 </main>
 

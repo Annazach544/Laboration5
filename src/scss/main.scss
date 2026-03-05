@@ -2,8 +2,9 @@
 @use 'base';
 @use 'layout';
 @use 'component';
+@use 'animations';
 
-// ===== AUTOMATISKT LIGHT THEME =====
+/* ===== AUTOMATISK LIGHT THEME ===== */
 @media (prefers-color-scheme: light) {
   body {
     background-color: #ffffff;
