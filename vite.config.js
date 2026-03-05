@@ -5,7 +5,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        sass: 'sass.html'
+        sass: 'sass.html', 
+        animation: 'animation.html'
       }
     }
   }
