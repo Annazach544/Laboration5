@@ -6,7 +6,9 @@ export default defineConfig({
       input: {
         main: 'index.html',
         sass: 'sass.html', 
-        animation: 'animation.html'
+        animation: 'animation.html',
+        diagram: 'diagram.html',
+        karta: 'karta.html'
       }
     }
   }

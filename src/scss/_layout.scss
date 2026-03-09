@@ -122,3 +122,26 @@ h1, h2 {
     margin-right: auto;
   }
 }
+/* Karta-sektion */
+.map-section {
+  text-align: center;
+
+  .search-container {
+    margin-bottom: 1rem;
+
+    input, button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      margin: 0 0.25rem;
+    }
+  }
+
+  #map {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+  }
+}

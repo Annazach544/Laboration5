@@ -5,35 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diagram</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <header>
-    <nav>
-<ul class="menu">
-  <li><a href="index.html">Start</a></li>
-  <li><a href="diagram.html" class="active">Diagram</a></li>
-  <li><a href="karta.html">Karta</a></li>
-  <li><a href="sass.html">Sass</a></li>
-  <li><a href="animation.html">Animation</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <h1>Diagram över antagningsstatistik HT2025</h1>
+<header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="diagram.html" class="active">Diagram</a></li>
+      <li><a href="karta.html">Karta</a></li>
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="animation.html">Animation</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <section>
-      <h2>Stapeldiagram – mest sökta kurser</h2>
-      <canvas id="barChart" width="400" height="200"></canvas>
-    </section>
+<main>
+  <h1>Diagram över antagningsstatistik HT2025</h1>
 
-    <section>
-      <h2>Cirkeldiagram – mest sökta program</h2>
-      <canvas id="pieChart" width="400" height="200"></canvas>
-    </section>
-  </main>
+  <section>
+    <h2>Stapeldiagram – mest sökta kurser</h2>
+    <canvas id="barChart"></canvas>
+  </section>
 
-  <script type="module" src="js/charts.js"></script>
+  <section>
+    <h2>Cirkeldiagram – mest sökta program</h2>
+    <canvas id="pieChart"></canvas>
+  </section>
+</main>
+
+<!-- Ladda Vite JS -->
+<script type="module" src="/src/js/main.js"></script>
 </body>
 </html>
+
