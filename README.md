@@ -8,4 +8,4 @@ Uppgiften var att skapa en webbplats med flera sidor och använda olika tekniker
 - En karta där användaren kan söka efter en plats
 
 ## Publicering
-https://69aeed4fdc49a2543f73d96b--jazzy-pastelito-1531f0.netlify.app/
+https://69b064e0bededeb8038fe3d1--jazzy-pastelito-1531f0.netlify.app/
