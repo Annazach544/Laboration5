@@ -1,16 +1,11 @@
-# Laboration 4 
+# Laboration 5 
 
 ## Om webbplatsen
-Projektet visar användning av CSS-animeringar, SASS och dynamisk webbdesign.
+Uppgiften var att skapa en webbplats med flera sidor och använda olika tekniker inom frontendutveckling.
 
-## Sidor
-- index.html – Startsida med meny och bildgalleri
-- sass.html – Sidan med reflektioner kring arbete med SASS
-- animation.html – Grafiska effekter och animeringar:
-      -   Glödande text
-      -   Rörligt objekt (flygande boll)
-      -   Interaktiv knapp som länkar till startsidan  
+## Projektet innehåller:
+- Diagram skapade med Chart.js
+- En karta där användaren kan söka efter en plats
 
 ## Publicering
-https://lab4animation.netlify.app/
-
+https://69aeed4fdc49a2543f73d96b--jazzy-pastelito-1531f0.netlify.app/
