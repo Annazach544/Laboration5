@@ -90,6 +90,54 @@ p {
     padding: 0.5rem 1rem;
   }
 }
+/* Diagram-sektion */
+main section canvas {
+  max-width: 600px;
+  max-height: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Centrera allt innehåll i main */
+main {
+  text-align: center;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h1, main h2 {
+  text-align: center;
+}
+main p, main button, main .floating-ball {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Karta-sektion */
+.map-section {
+  text-align: center;
+}
+.map-section .search-container {
+  margin-bottom: 1rem;
+}
+.map-section .search-container input, .map-section .search-container button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 0 0.25rem;
+}
+.map-section #map {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+}
+
 .menu li a {
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
